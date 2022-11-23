@@ -2,6 +2,10 @@
   "name": "proxy",
   "description": "A Simple HTTP Proxy",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
   "devDependencies": {},
   "dependencies": {
     "request": "^2.81.0"
